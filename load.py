@@ -33,3 +33,18 @@ def load_data_SMCalFlow():
                 {'agent': turn['agent_utterance']['original_text'], 'user': turn['user_utterance']['original_text']}
                 for turn in dialog['turns']])
     return source
+
+def load_data_QuAC():
+    with open('./data/QuAC/val_v0.2.json') as f:
+        source = json.load(f)
+
+    for data in source['data']:
+        for paragraph in data['paragraphs']:
+            for qa in paragraph['qas']:
+                if qa['yesno'] == 'y':
+                    for answer in qa['answers']:
+                        answer['text'] = 'yes, ' + answer['text']
+                elif qa['yesno'] == 'n':
+                    for answer in qa['answers']:
+                        answer['text'] = 'no, ' + answer['text']
+    return source['data']
