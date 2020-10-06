@@ -1,0 +1,208 @@
+1	What	what	DET	WDT	PronType=Int	2	det	_	_
+2	color	color	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	Cotton	Cotton	PROPN	NNP	Number=Sing	0	root	_	_
+5	?	?	PUNCT	.	_	4	punct	_	_
+
+1	white	white	ADJ	JJ	Degree=Pos	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+1	Where	where	ADV	WRB	PronType=Int	4	advmod	_	_
+2	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	live	live	VERB	VB	VerbForm=Inf	0	root	_	_
+5	?	?	PUNCT	.	_	4	punct	_	_
+
+1	in	in	ADP	IN	_	3	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	barn	barn	NOUN	NN	Number=Sing	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+1	Did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	live	live	VERB	VB	VerbForm=Inf	0	root	_	_
+4	alone	alone	ADV	RB	_	3	advmod	_	_
+5	?	?	PUNCT	.	_	3	punct	_	_
+
+1	no	no	INTJ	UH	_	6	discourse	_	_
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	Cotton	Cotton	PROPN	NNP	Number=Sing	6	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+5	n't	not	PART	RB	_	6	advmod	_	_
+6	alone	alone	ADJ	JJ	Degree=Pos	0	root	_	_
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+1	Who	who	PRON	WP	PronType=Int	4	obl	_	_
+2	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	live	live	VERB	VB	VerbForm=Inf	0	root	_	_
+5	with	with	ADP	IN	_	1	case	_	_
+6	?	?	PUNCT	.	_	4	punct	_	_
+
+1	with	with	ADP	IN	_	3	case	_	_
+2	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	mommy	mommy	NOUN	NN	Number=Sing	0	root	_	_
+4	and	and	CCONJ	CC	_	6	cc	_	_
+5	5	5	NUM	CD	NumType=Card	6	nummod	_	_
+6	sisters	sister	NOUN	NNS	Number=Plur	3	conj	_	_
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+1	What	what	DET	WDT	PronType=Int	2	det	_	_
+2	color	color	NOUN	NN	Number=Sing	0	root	_	_
+3	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	cop	_	_
+4	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	sisters	sister	NOUN	NNS	Number=Plur	2	nsubj	_	_
+6	?	?	PUNCT	.	_	2	punct	_	_
+
+1	orange	orange	ADJ	JJ	Degree=Pos	0	root	_	_
+2	and	and	CCONJ	CC	_	3	cc	_	_
+3	white	white	ADJ	JJ	Degree=Pos	1	conj	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+1	Was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+2	Cotton	Cotton	PROPN	NNP	Number=Sing	3	nsubj	_	_
+3	happy	happy	ADJ	JJ	Degree=Pos	0	root	_	_
+4	that	that	SCONJ	IN	_	6	mark	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+7	different	different	ADJ	JJ	Degree=Pos	6	xcomp	_	_
+8	than	than	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	rest	rest	NOUN	NN	Number=Sing	7	obl	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	family	family	NOUN	NN	Number=Sing	10	nmod	_	_
+14	?	?	PUNCT	.	_	3	punct	_	_
+
+1	no	no	INTJ	UH	_	8	discourse	_	_
+2	,	,	PUNCT	,	_	8	punct	_	_
+3	Being	be	AUX	VBG	VerbForm=Ger	5	aux:pass	_	_
+4	different	different	ADJ	JJ	Degree=Pos	5	compound	_	_
+5	made	make	VERB	VBN	Tense=Past|VerbForm=Part	8	csubj	_	_
+6	Cotton	Cotton	PROPN	NNP	Number=Sing	5	obj	_	_
+7	quite	quite	ADV	RB	_	8	advmod	_	_
+8	sad	sad	ADJ	JJ	Degree=Pos	0	root	_	_
+9	.	.	PUNCT	.	_	8	punct	_	_
+
+1	What	what	PRON	WP	PronType=Int	6	obj	_	_
+2	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	try	try	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	make	make	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	8	iobj	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	same	same	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	color	color	NOUN	NN	Number=Sing	8	obj	_	_
+13	as	as	ADP	IN	_	15	case	_	_
+14	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	sisters	sister	NOUN	NNS	Number=Plur	12	nmod	_	_
+16	?	?	PUNCT	.	_	4	punct	_	_
+
+1	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	painted	paint	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+1	Whose	whose	PRON	WP$	Poss=Yes|PronType=Int	2	nmod:poss	_	_
+2	paint	paint	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+5	?	?	PUNCT	.	_	4	punct	_	_
+
+1	the	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	farmer	farmer	NOUN	NN	Number=Sing	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+1	What	what	PRON	WP	PronType=Int	8	obj	_	_
+2	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	_
+3	Cotton	Cotton	PROPN	NNP	Number=Sing	5	nmod:poss	_	_
+4	's	's	PART	POS	_	3	case	_	_
+5	mother	mother	NOUN	NN	Number=Sing	8	nsubj	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	siblings	sibling	NOUN	NNS	Number=Plur	5	conj	_	_
+8	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+9	when	when	ADV	WRB	PronType=Int	11	mark	_	_
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+11	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	advcl	_	_
+12	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	obj	_	_
+13	painted	paint	VERB	VBN	Tense=Past|VerbForm=Part	14	amod	_	_
+14	orange	orange	NOUN	NN	Number=Sing	11	obj	_	_
+15	?	?	PUNCT	.	_	8	punct	_	_
+
+1	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	started	start	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	laughing	laugh	VERB	VBG	VerbForm=Ger	2	xcomp	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+1	Where	where	ADV	WRB	PronType=Int	6	advmod	_	_
+2	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+3	Cotton	Cotton	PROPN	NNP	Number=Sing	5	nmod:poss	_	_
+4	's	's	PART	POS	_	3	case	_	_
+5	mother	mother	NOUN	NN	Number=Sing	6	nsubj	_	_
+6	put	put	VERB	VB	VerbForm=Inf	0	root	_	_
+7	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	clean	clean	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	paint	paint	NOUN	NN	Number=Sing	9	obj	_	_
+12	off	off	ADP	RP	_	9	compound:prt	_	_
+13	?	?	PUNCT	.	_	6	punct	_	_
+
+1	a	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	bucket	bucket	NOUN	NN	Number=Sing	0	root	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	water	water	NOUN	NN	Number=Sing	2	nmod	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+1	What	what	PRON	WP	PronType=Int	6	obj	_	_
+2	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	other	other	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	cats	cat	NOUN	NNS	Number=Plur	6	nsubj	_	_
+6	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+7	when	when	ADV	WRB	PronType=Int	9	mark	_	_
+8	Cotton	Cotton	PROPN	NNP	Number=Sing	9	nsubj	_	_
+9	emerged	emerge	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	_
+10	from	from	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	bucket	bucket	NOUN	NN	Number=Sing	9	obl	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	water	water	NOUN	NN	Number=Sing	12	nmod	_	_
+15	?	?	PUNCT	.	_	6	punct	_	_
+
+1	licked	lick	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+2	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	face	face	NOUN	NN	Number=Sing	1	obj	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+1	Did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	want	want	VERB	VB	VerbForm=Inf	0	root	_	_
+4	Cotton	Cotton	PROPN	NNP	Number=Sing	3	obj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	change	change	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	color	color	NOUN	NN	Number=Sing	6	obj	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	fur	fur	NOUN	NN	Number=Sing	8	nmod	_	_
+12	?	?	PUNCT	.	_	3	punct	_	_
+
+1	no	no	INTJ	UH	_	0	root	_	_
+2	,	,	PUNCT	,	_	1	punct	_	_
+
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	never	never	ADV	RB	_	4	advmod	_	_
+4	want	want	VERB	VB	VerbForm=Inf	0	root	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obj	_	_
+6	to	to	PART	TO	_	10	mark	_	_
+7	be	be	AUX	VB	VerbForm=Inf	10	cop	_	_
+8	any	any	DET	DT	_	10	det	_	_
+9	other	other	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	way	way	NOUN	NN	Number=Sing	4	xcomp	_	_
+11	.	.	PUNCT	.	_	4	punct	_	_
+
