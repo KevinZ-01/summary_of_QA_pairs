@@ -19,7 +19,7 @@ AUX = AUX_BE + AUX_DO + AUX_HAVE
 TIME_WORDS = ['year', 'month', 'day', 'hour', 'decade', 'century', 'millenium']
 DETS = ['the', 'a', 'an']
 
-with open('preps.txt', 'r') as f:
+with open('rule_based/preps.txt', 'r') as f:
     common_preps = f.read().splitlines()
 
 def is_aux(tok):

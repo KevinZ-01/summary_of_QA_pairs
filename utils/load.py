@@ -48,3 +48,9 @@ def load_data_QuAC():
                     for answer in qa['answers']:
                         answer['text'] = 'no, ' + answer['text']
     return source['data']
+
+def load(dataset):
+    if dataset == 'CoQA':
+        return load_data_COQA()
+    elif dataset == 'QuAC':
+        return load_data_QuAC()

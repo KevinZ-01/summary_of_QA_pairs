@@ -1,5 +1,5 @@
 from html_writing_utils import *
-from load import *
+from utils.load import *
 import nltk
 
 def summary_SQuAD():
@@ -51,7 +51,7 @@ def summary_CoQA():
             sum += summary[key]
         data['summary'] = sum
     # print COQA with GT summary in HTML
-    printTohtml_COQA(COQA)
+    return COQA
 
 def SMCalFlow():
     # print dialog data in HTML
