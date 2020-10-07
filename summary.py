@@ -40,7 +40,7 @@ def summary_CoQA():
             sentence_list[i] = [sentence_list[i], length]
         for i in range(len(data['questions'])):
             if data['answers'][i]['input_text'] == 'No' or data['answers'][i]['input_text'] == 'no':
-                data['answers'][i]['input_text'] += ', ' + data['answers'][i]['span_text']
+                data['answers'][i]['input_text'] += ',' + data['answers'][i]['span_text']
             for j in range(len(sentence_list)):
                 if if_match_coqa(data['answers'][i], sentence_list[j][1]):
                     if j not in summary:
@@ -48,7 +48,7 @@ def summary_CoQA():
                     break
         sum = ''
         for key in sorted(summary):
-            sum += summary[key]
+            sum += summary[key] + ' '
         data['summary'] = sum
     # print COQA with GT summary in HTML
     return COQA

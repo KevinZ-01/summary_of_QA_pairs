@@ -9,7 +9,7 @@ def get_arguments():
     parser.add_argument('--no-cuda', action='store_true', default=True,
                         help='Disables CUDA training.')
     parser.add_argument('--method', type=str, default='rule',help='rule, rule-neural parser')
-    parser.add_argument('--score', type=str, default='bert score', help='bert score, bleu, ')
+    parser.add_argument('--score', type=str, default='bleu', help='bert score, bleu, ')
 
     return parser.parse_args()
 
@@ -19,6 +19,7 @@ def main():
     if args.dataset == 'CoQA':
         data = summary_CoQA()
     if args.method == 'rule':
+        print('Using rule based model...')
         rule_main(args, data)
 
 if __name__ == "__main__":

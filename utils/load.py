@@ -17,7 +17,7 @@ def load_data_SQuAD():
     return source['data']
 
 def load_data_COQA():
-    with open('./data/COQA/coqa-dev-v1.0.json') as f:
+    with open('D:/senior/秋研/Lifu Huang/proj1/summary of QA pairs/data/COQA/coqa-dev-v1.0.json') as f:
         source = json.load(f)
 
     for data in source['data']:

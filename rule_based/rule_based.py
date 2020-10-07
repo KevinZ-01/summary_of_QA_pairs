@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 import string
-import pattern3
+from pattern.text.en import conjugate
 from copy import deepcopy
 
 alpha = string.ascii_uppercase
@@ -492,12 +492,12 @@ class Question:
                 if tok['form'] == 'leave':
                     new_form = 'left'
                 else:
-                    new_form = pattern3.en.conjugate(tok['form'], tense='past')
+                    new_form = conjugate(tok['form'], tense='past')
                 tok['form'] = new_form
                 tok['xpostag'] = 'VBD'
         elif pres_3sg:
             for tok in [root] + conj:
-                tok['form'] = pattern3.en.conjugate(tok['form'], tense='present', person=3, number='singular')
+                tok['form'] = conjugate(tok['form'], tense='present', person=3, number='singular')
                 tok['xpostag'] = 'VBZ'
         return
 
@@ -647,11 +647,11 @@ class AnswerSpan:
                 if tok['form'] == 'leave':
                     new_form = 'left'
                 else:
-                    new_form = pattern3.en.conjugate(tok['form'], tense='past')
+                    new_form = conjugate(tok['form'], tense='past')
                 tok['form'] = new_form
                 tok['xpostag'] = 'VBD'
         elif pres_3sg:
             for tok in [root] + conj:
-                tok['form'] = pattern3.en.conjugate(tok['form'], tense='present', person=3, number='singular')
+                tok['form'] = conjugate(tok['form'], tense='present', person=3, number='singular')
                 tok['xpostag'] = 'VBZ'
         return
